@@ -12,9 +12,13 @@ Vue.use(Vuex)
 // -mutations:函数
 // -mutations里的函数的参数
 //  - state:数据
+//  - payload: 载荷,触发mutation的参数
 
 // 触发mutations里面的方法
 //  - this.$store.commit('mutation方法名字', 参数)
+
+// getters  --> 相当于computed计算属性
+// getters的函数 第一个参数是state
 export default new Vuex.Store({
   state: {
     count: 0

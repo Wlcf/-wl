@@ -117,6 +117,7 @@ export default {
         duration: 0
       })
     },
+
     async sendCode() {
       // 0.验证用户是否输入了有效的手机号
       // 1.form绑定ref
